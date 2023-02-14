@@ -1,0 +1,9 @@
+data1=book1
+summary(data1);data1
+installed.packages('dplyr')
+install.packages('ggplot2')
+install.packages("moments")
+skewness(data1)
+kurtosis(data1)
+hist(data1$WT)
+hist(data1$SP)
